@@ -42,11 +42,11 @@ ul{
     padding: 12px 24px;
     justify-content: center;
     align-items: center;
+    background: #00FF1A;
     gap: 10px;
     color: #000;
     font-size: 16px;
     border-radius: 24px;
-    background: #00FF1A;
     border: 0;
 }
 
@@ -85,7 +85,6 @@ ul{
 #spanjbob_box{
     display: flex;
     justify-content: space-between;
-    background-color: blueviolet;
     height: 358px;
     width: 100%;
 }
@@ -188,7 +187,6 @@ ul{
     width: 100%;
     gap: 22px;
     height: 475px;
-    background-color: aqua;
 }
 
 
@@ -235,7 +233,6 @@ ul{
     display: flex;
     width: 1040px;
     height: 357px;
-    background-color: burlywood;
     flex-direction: column;
     align-items: center;
     gap: 32px;
@@ -284,7 +281,6 @@ ul{
     height: 643px;
     align-items: flex-start;
     gap: 22px;
-    background-color: cornflowerblue;
 }
 
 #stv_text_box{
@@ -330,24 +326,24 @@ ul{
     display: flex;
     width: 1040px;
     height: 729px;
-    background-color: goldenrod;
     gap: 24px;
 }
 
 
 #text_box{
     display: flex;
+    align-items: center;
     flex-direction: column;
 }
 
 #boy_icon-box{
     display: flex;
     padding: 24px 32px;
-    flex-direction: column;
     align-items: flex-start;
     background: #1C1C20;
-    width: 624px;
-    height: 416px;
+    gap: 12px;
+    width:  600px;
+    height: 328px;
 }
 
 
@@ -357,17 +353,160 @@ ul{
     flex-direction: column;
     align-items: flex-start;
     background: #1C1C20;
+    gap: 12px;
     height: 217px;
-    width: 624px;
+    width: 600px;
 
 }
 
 #form_box{
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     padding: 24px 32px;
-    align-items: center;
-    gap: 10px;
+    gap: 24px;
     width: 392px;
-    height: 729px;
+    height: 583px;
     background: #1C1C20;
+}
+
+#boy_text{
+    width: 440px;
+    height: 250px;
+    gap: 12px;
+}
+
+#star_box{
+    display: flex;
+    gap: 13px;
+}
+
+#boy_title{
+    color: #FFF;
+    font-size: 16px;
+}
+
+#boy_soan{
+    color: #7A7A7A;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+#star_style{
+    display: flex;
+    width: 24px;
+    height: 24px;
+}
+
+#star_box_pp{
+    color: #B7B7B7;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+
+#star_green_style{
+    color: #00FF1A;
+}
+
+#frch_{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#circle_content{
+     margin-top: 110px;
+     gap: 16px;
+}
+
+
+#phone_title{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+
+#phone_p{
+    color: #B7B7B7;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+
+
+#phone_box{
+    display: flex;
+    gap: 12px;
+}
+
+
+#phone_icon{
+    border-radius: 50px;
+    background: #00FF1A;
+    display: flex;
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+#phone_number{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+
+.form_style{
+    display: flex;
+    padding: 12px 16px;
+    gap: 10px;
+    width: 328px;
+    height: 48px;
+    border-radius: 4px;
+    background: #1C1C20;
+    border: 1px solid #565656;
+}
+
+#text_style{
+    display: flex;
+    width: 328px;
+    height: 155px;
+    background: #1C1C20;
+    border-radius: 4px;
+    border: 1px solid #565656;
+    padding: 12px 16px;
+    gap: 10px;
+}
+
+
+#form_button{
+    display: flex;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    background: #00FF1A;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#form_gap{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+#form_title{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
 }
