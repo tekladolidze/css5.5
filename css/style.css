@@ -230,3 +230,97 @@ ul{
     font-weight: 500;
     line-height: 24px; 
 }
+
+#works_conteiner{
+    display: flex;
+    width: 1040px;
+    height: 357px;
+    background-color: burlywood;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+#register_img_box{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 213px;
+}
+
+#register_text_box{
+    margin-top: 37px;
+    display: flex;
+}
+
+
+.register_text_style{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 245px;
+    gap: 12px;
+    flex: 1 0 0;
+}
+
+.register_title{
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.register_span{
+    color: #7A7A7A;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+#frog_box_srv{
+    display: flex;
+    width: 100%;
+    height: 643px;
+    align-items: flex-start;
+    gap: 22px;
+    background-color: cornflowerblue;
+}
+
+#stv_text_box{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#border_left{
+    border-left: 2px solid #00FF1A;
+}
+
+#deposit_boxes{
+    display: flex;
+    height: 111px;
+    padding: 0px 16px 24px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.boxes_padding{
+    padding: 0px 16px 24px 16px;
+}
+
+
+.deposit_title{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+
+.deposit_pp{
+    color: #7A7A7A;
+    font-size: 16px;
+    font-weight: 500;
+}
