@@ -16,6 +16,8 @@
     border-bottom: 1px solid #003004;
 }
 
+
+
 #header_nav{
     display: flex;
     width: 1040px;
@@ -25,11 +27,14 @@
 }
 
 
-ul{
+
+#nav_ul{
     display: flex;
     list-style-type: none;
     gap: 16px;
 }
+
+
 
 .nav_list_style{
     color: #FFF;
@@ -76,18 +81,19 @@ ul{
     display: flex;
     max-width: 1040px;
     width: 100%;
-    height: 3221px;
-    background-color: #2d235e;
     flex-direction: column;
     gap: 112px;
 }
 
+
+
+
 #spanjbob_box{
     display: flex;
     justify-content: space-between;
-    height: 358px;
     width: 100%;
 }
+
 
 
 #spanjbob_text{
@@ -98,16 +104,22 @@ ul{
 }
 
 
+
+
 .title_h1_style{
     color: #FFF;
     font-size: 72px;
 }
 
 
+
+
 .paragrap_style{
     color: #7A7A7A;
     font-size: 20px;
 }
+
+
 
 
 #button_box{
@@ -154,17 +166,25 @@ ul{
     border-top: 1px solid #00FF1A;
 }
 
+
+
+
 .number_box_style{
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
+
+
+
 .number_title{
     color: #FFF;
     font-size: 32px;
     font-weight: 500;
 }
+
+
 
 .number_span{
     color: #7A7A7A;
@@ -186,8 +206,10 @@ ul{
     display: flex;
     width: 100%;
     gap: 22px;
-    height: 475px;
 }
+
+
+
 
 
 #frog_text{
@@ -197,6 +219,9 @@ ul{
     gap: 16px;
 }
 
+
+
+
 .circle_box{
     display: flex;
     flex-direction: column;
@@ -205,15 +230,24 @@ ul{
 }
 
 
+
+
+
 .circle_text{
     display: flex;
     flex-direction: column;
 }
 
+
+
+
 .green_circle_text{
     display: flex;
     gap: 16px;
 }
+
+
+
 
 
 .frog_title{
@@ -222,6 +256,9 @@ ul{
     font-weight: 900;
 }
 
+
+
+
 .frof_span{
     color: #7A7A7A;
     font-size: 16px;
@@ -229,14 +266,19 @@ ul{
     line-height: 24px; 
 }
 
+
+
+
 #works_conteiner{
     display: flex;
     width: 1040px;
-    height: 357px;
     flex-direction: column;
     align-items: center;
     gap: 32px;
 }
+
+
+
 
 #register_img_box{
     display: flex;
@@ -245,10 +287,15 @@ ul{
     gap: 213px;
 }
 
+
+
+
 #register_text_box{
     margin-top: 37px;
     display: flex;
 }
+
+
 
 
 .register_text_style{
@@ -260,12 +307,18 @@ ul{
     flex: 1 0 0;
 }
 
+
+
+
 .register_title{
     color: #FFF;
     text-align: center;
     font-size: 24px;
     font-weight: 900;
 }
+
+
+
 
 .register_span{
     color: #7A7A7A;
@@ -275,13 +328,17 @@ ul{
 }
 
 
+
+
 #frog_box_srv{
     display: flex;
     width: 100%;
-    height: 643px;
     align-items: flex-start;
     gap: 22px;
 }
+
+
+
 
 #stv_text_box{
     display: flex;
@@ -289,13 +346,18 @@ ul{
     gap: 16px;
 }
 
+
+
+
 #border_left{
     border-left: 2px solid #00FF1A;
 }
 
+
+
+
 #deposit_boxes{
     display: flex;
-    height: 111px;
     padding: 0px 16px 24px 16px;
     flex-direction: column;
     align-items: flex-start;
@@ -303,9 +365,13 @@ ul{
     align-self: stretch;
 }
 
+
+
+
 .boxes_padding{
     padding: 0px 16px 24px 16px;
 }
+
 
 
 .deposit_title{
@@ -315,6 +381,7 @@ ul{
 }
 
 
+
 .deposit_pp{
     color: #7A7A7A;
     font-size: 16px;
@@ -322,12 +389,14 @@ ul{
 }
 
 
+
 #Testimonials_box{
     display: flex;
     width: 1040px;
-    height: 729px;
     gap: 24px;
 }
+
+
 
 
 #text_box{
@@ -335,6 +404,9 @@ ul{
     align-items: center;
     flex-direction: column;
 }
+
+
+
 
 #boy_icon-box{
     display: flex;
@@ -345,6 +417,7 @@ ul{
     width:  600px;
     height: 328px;
 }
+
 
 
 #phone_number_box{
@@ -359,6 +432,9 @@ ul{
 
 }
 
+
+
+
 #form_box{
     display: flex;
     flex-direction: column;
@@ -370,21 +446,31 @@ ul{
     background: #1C1C20;
 }
 
+
+
+
 #boy_text{
-    width: 440px;
-    height: 250px;
     gap: 12px;
 }
+
+
+
 
 #star_box{
     display: flex;
     gap: 13px;
 }
 
+
+
+
 #boy_title{
     color: #FFF;
     font-size: 16px;
 }
+
+
+
 
 #boy_soan{
     color: #7A7A7A;
@@ -393,11 +479,17 @@ ul{
     line-height: 24px;
 }
 
+
+
+
 #star_style{
     display: flex;
     width: 24px;
     height: 24px;
 }
+
+
+
 
 #star_box_pp{
     color: #B7B7B7;
@@ -406,9 +498,14 @@ ul{
 }
 
 
+
+
 #star_green_style{
     color: #00FF1A;
 }
+
+
+
 
 #frch_{
     display: flex;
@@ -416,10 +513,14 @@ ul{
     align-items: flex-end;
 }
 
+
+
+
 #circle_content{
      margin-top: 110px;
      gap: 16px;
 }
+
 
 
 #phone_title{
@@ -427,6 +528,7 @@ ul{
     font-size: 24px;
     font-weight: 900;
 }
+
 
 
 #phone_p{
@@ -437,10 +539,13 @@ ul{
 
 
 
+
 #phone_box{
     display: flex;
     gap: 12px;
 }
+
+
 
 
 #phone_icon{
@@ -453,11 +558,16 @@ ul{
     align-items: center;
 }
 
+
+
+
 #phone_number{
     color: #FFF;
     font-size: 20px;
     font-weight: 900;
 }
+
+
 
 
 .form_style{
@@ -471,6 +581,9 @@ ul{
     border: 1px solid #565656;
 }
 
+
+
+
 #text_style{
     display: flex;
     width: 328px;
@@ -481,6 +594,8 @@ ul{
     padding: 12px 16px;
     gap: 10px;
 }
+
+
 
 
 #form_button{
@@ -498,6 +613,9 @@ ul{
     font-weight: 500;
 }
 
+
+
+
 #form_gap{
     display: flex;
     flex-direction: column;
@@ -505,8 +623,84 @@ ul{
 }
 
 
+
+
 #form_title{
     color: #FFF;
     font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+
+#footer_conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 224px;
+    background: #040405;
+    border-top: 1px solid #00FF1A;
+}
+
+
+
+
+
+#footer_box{
+    display: flex;
+    justify-content: space-between;
+    width: 1040px;
+}
+
+
+
+.ul_footer{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+
+
+#footer_logo{
+    width: 116px;
+   height: 24.5px;
+}
+
+
+
+
+.li_style_footer{
+    color: #7A7A7A;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+
+.li_style_title{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+
+#footer_logos{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+
+#footer_span{
+    color: #FFF;
+    font-size: 16px;
     font-weight: 500;
 }
